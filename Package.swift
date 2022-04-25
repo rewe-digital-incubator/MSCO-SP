@@ -13,6 +13,7 @@ let package = Package(
             name: "ShopremeCore",
             targets: ["ShopremeCore"]),
     ],
+    dependencies: [],
     targets: [
         .binaryTarget(
             name: "ShopremeCore",
