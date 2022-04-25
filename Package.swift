@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "MSCO",
+    name: "ShopremeCore",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "MSCO",
-            targets: ["MSCO"]),
+            name: "ShopremeCore",
+            targets: ["ShopremeCore"]),
     ],
     targets: [
         .binaryTarget(
-            name: "MSCO",
-            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1-alpha.1/MSCO.xcframework.zip",
+            name: "ShopremeCore",
+            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1-alpha.2/ShopremeCore.xcframework.zip",
             checksum: "893dbce281060298215c39423ef34694a433f94cc1660c9aed251f0fbc52caf3")
     ]
 )
