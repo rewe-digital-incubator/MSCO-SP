@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ShopremeCore",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ShopremeCore",
-            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1-alpha.3/ShopremeCore.xcframework.zip",
-            checksum: "650ca8a43e2845256a13675769a10ce06ba5c23047ff2e933a5754f26aed91b6")
+            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1-alpha.4/ShopremeCore.xcframework.zip",
+            checksum: "b38cc3495f53813895877c3012e405d7981e476f3bc5912798c0e616d55a1cd9")
     ]
 )
