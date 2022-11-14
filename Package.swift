@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ShopremeCore",
-            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1-beta.1/ShopremeCore.xcframework.zip",
-            checksum: "584aa1a47aea59cbcab9d33f43993923273e68938f88397bf2b8998e9f0e7584")
+            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.1/ShopremeCore.xcframework.zip",
+            checksum: "69859c12bf220cda038ff757ef2f862b01eb0cacdf7e7e42e5cb741df33fa34f")
     ]
 )
