@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MSCO",
-            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.8.0/MSCO.xcframework.zip",
-            checksum: "1e0af06ac0b345c88ffdbdb7828f3e180ecc752db93234c9d8a8dca59a762d09")
+            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v0.9-beta/MSCO.xcframework.zip",
+            checksum: "c61a40eae95e282ef4e9b76839c42178f6f7bb533b367e7ecf64ac31307a2276")
     ]
 )
