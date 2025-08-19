@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "MSCO",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v16)
     ],
     products: [
         .library(
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MSCO",
-            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v2.1.2/MSCO.xcframework.zip",
-            checksum: "f945c31e90fb65126fe2c499218abbe657492e5695b323d941caa5411fd469cd"
+            url: "https://github.com/rewe-digital-incubator/MSCO-SP/releases/download/v2.2.0/MSCO.xcframework.zip",
+            checksum: "bb9ed1d8bf55338c87467154e319a81b30c30a88e98b8a35d1bec9c3e77584c8"
         )
     ]
   )
